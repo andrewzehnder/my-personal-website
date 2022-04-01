@@ -1,3 +1,13 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by Javascript";
-document.querySelector("body").appendChild(h2);
+
+
+function myFunction() {
+    document.getElementById("skills").innerHTML = "Skills Upgraded!";
+  }
+
+
+  function mouseOver() {
+    document.getElementById("demo").style.color = "red";
+    }
+    function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+    }
