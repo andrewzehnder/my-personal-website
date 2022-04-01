@@ -1,3 +1,46 @@
 body {
-    background: blue;
+    background: lightgray;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+ul#education {
+    font-size: 18px;
+    color: blue;
+}
+
+
+ul#experience {
+    font-size: 18px;
+}
+
+a:active{
+    color: black;
+}
+
+a:visited {
+    color:red;
+}
+h4 {
+    font-size: 24px;
 }
